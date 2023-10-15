@@ -1,5 +1,8 @@
-import "../styles/globals.css";
 import type { Metadata } from "next";
+
+import { Nav, Footer } from "@/components";
+
+import "../styles/globals.css";
 
 export const metadata: Metadata = {
   title: "Renofix",
@@ -9,7 +12,11 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Nav />
+        <main>{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 };
