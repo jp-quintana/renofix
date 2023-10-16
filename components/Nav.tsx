@@ -14,9 +14,10 @@ const Nav = () => {
           className="object-contain"
         /> */}
         <nav>
-          <ul className="flex gap-[60px] py-[10px]">
+          <ul className="flex gap-[60px] py-[30px]">
             <li>Home</li>
             <li>About Us</li>
+            <li>Works</li>
             <li>Contact</li>
           </ul>
         </nav>

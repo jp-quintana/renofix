@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className=" mt-auto bg-gray-700 text-white">
-      <div className="nav-container py-[10px]">Footer</div>
+    <footer className="mt-auto">
+      <div className="nav-container py-[30px]">Footer</div>
     </footer>
   );
 };

@@ -1,5 +1,8 @@
+import AboutUs from "./AboutUs";
+import Contact from "./Contact";
 import Footer from "./Footer";
 import Hero from "./Hero";
 import Nav from "./Nav";
+import Works from "./Works";
 
-export { Hero, Footer, Nav };
+export { AboutUs, Contact, Hero, Footer, Nav, Works };
