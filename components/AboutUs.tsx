@@ -14,6 +14,14 @@ const AboutUs = () => {
           it's your cherished home or valued commercial space, we are dedicated
           to making your dreams come true.
         </p>
+        <p>
+          Welcome to Renofix, where we specialize in crafting dreams into
+          reality. Our passion lies in transforming your imagination into
+          tangible, awe-inspiring spaces. With creativity at our core and
+          craftsmanship in our hands, we breathe life into your visions. Whether
+          it's your cherished home or valued commercial space, we are dedicated
+          to making your dreams come true.
+        </p>
       </div>
     </section>
   );
