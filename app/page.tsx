@@ -1,15 +1,9 @@
-import { AboutUs, Contact, Hero, Testimonials, Works } from "@/components";
+import React from "react";
 
-const Home = () => {
-  return (
-    <>
-      <Hero />
-      <AboutUs />
-      <Works />
-      <Testimonials />
-      <Contact />
-    </>
-  );
+import { Hero } from "@/components";
+
+const page = () => {
+  return <Hero />;
 };
 
-export default Home;
+export default page;

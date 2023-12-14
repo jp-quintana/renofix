@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import { Nav, Footer } from "@/components";
+// import { Nav, Footer } from "@/components";
 
 import "../styles/globals.css";
 
@@ -14,9 +14,9 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
     <html lang="en">
       <body className="relative">
         <div className="flex min-h-screen flex-col">
-          <Nav />
+          {/* <Nav /> */}
           <main>{children}</main>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </body>
     </html>
