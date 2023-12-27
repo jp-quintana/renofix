@@ -1,9 +1,10 @@
 import React from 'react';
+import ModeToggle from './mode-toggle';
 
 const Nav = () => {
   return (
     <header className="fixed top-0 z-20 w-full">
-      <div className="nav-container flex items-center justify-between">
+      <div className="flex items-center justify-between px-10">
         <p className="text-[20px] font-bold">Logo</p>
         {/* <Image
       src={"/images/logo.png"}
@@ -20,6 +21,7 @@ const Nav = () => {
             <li>Contact</li>
           </ul>
         </nav>
+        <ModeToggle />
       </div>
     </header>
   );
